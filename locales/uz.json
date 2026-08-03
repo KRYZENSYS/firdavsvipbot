@@ -1,0 +1,22 @@
+{
+  "welcome": "💎 {name} — xush kelibsiz!\n\n🤍 Siz <b>{brand}</b> anonim chat botidasiz.\n\nBu yerda sizning xabaringiz to'g'ridan-to'g'ri admin'ga boradi. Siz anonim qalasiz, lekin admin sizning faolligingizni va statistikangizni ko'radi.\n\n📋 Buyruqlar:\n/start — boshlash\n/help — yordam\n/profile — profilingiz\n/status — admin holati\n/clear — tarixni tozalash\n/stop — suhbatni to'xtatish\n/feedback — baho berish\n/lang — tilni o'zgartirish\n\n✍️ Xabar yozing — admin ko'radi.",
+  "help": "📖 <b>Yordam</b>\n\n<b>Foydalanuvchi buyruqlari:</b>\n/start — botni boshlash\n/help — yordam\n/profile — profilingiz va statistikangiz\n/status — admin onlaynmi?\n/clear — suhbat tarixini tozalash\n/stop — suhbatni to'xtatish\n/feedback — botga baho berish (1-5 ⭐)\n/lang — tilni o'zgartirish\n\n<b>Qanday ishlaydi?</b>\nSiz yozgan har bir xabar admin'ga boradi. Admin sizning anonim taxallusingizni ko'radi. Siz admin'dan javob olasiz.\n\n🔒 <b>Anonimlik:</b> Sizning ism va username'ingiz faqat admin ko'radi, boshqa foydalanuvchilar ko'rmaydi.\n\n⚠️ <b>Spam yoki haqoratli xabarlar bloklanadi.</b>",
+  "profile": "👤 <b>Sizning profilingiz</b>\n\n🎭 Anonim ID: <b>{anon_id}</b>\n🗣 Ism: {full_name}\n📛 Username: @{username}\n🌐 Til: {language}\n🏷 Teg: {tag}\n📊 Xabarlar: {messages}\n🕐 Ro'yxatdan o'tgan: {created}",
+  "status": "🟢 <b>Admin: onlayn</b>\n\nAdmin tez orada javob beradi.\n\n— yoki —\n\n🔴 <b>Admin: oflayn</b>\n\nAvto-javob yoqilgan. Xabaringiz qabul qilindi, admin onlayn bo'lganda javob beradi.",
+  "stop": "🛑 Suhbat to'xtatildi. Yana suhbatlashmoqchi bo'lsangiz, menga xabar yozing. 🤍",
+  "clear": "🗑 Suhbat tarixingiz tozalandi.",
+  "feedback_prompt": "⭐ Iltimos, botga 1 dan 5 gacha baho bering:",
+  "feedback_thanks": "🙏 Bahoingiz uchun rahmat! Fikringiz biz uchun muhim.",
+  "feedback_comment_prompt": "💬 Izoh qoldirmoqchimisiz? Yozing yoki /skip ni bosing:",
+  "feedback_skip": "👍 Tushunarli, rahmat!",
+  "blocked": "🚫 Siz bloklangansiz. Bundan buyon sizning xabarlaringiz qabul qilinmaydi.",
+  "spam_warning": "⚠️ Iltimos, qoidalarga rioya qiling. Spam yoki haqoratli xabarlar bloklanadi.",
+  "message_sent": "✅ Xabaringiz admin'ga yuborildi. Kuting…",
+  "auto_reply": "🤖 Avto-javob: xabaringiz qabul qilindi, admin tez orada javob beradi.",
+  "rate_limited": "⏳ Iltimos, sekinroq yozing. Juda ko'p xabar yubordingiz.",
+  "lang_select": "🌐 Tilni tanlang:",
+  "lang_changed": "✅ Til muvaffaqiyatli o'zgartirildi: {language}",
+  "not_in_chat": "ℹ️ Avval suhbatni boshlang. /start ni bosing.",
+  "flood_blocked": "⏸ Siz suhbatni to'xtatgansiz. Yana boshlash uchun /start ni bosing.",
+  "msg_too_long": "📏 Xabar juda uzun. Maksimum: {max} belgi."
+}
