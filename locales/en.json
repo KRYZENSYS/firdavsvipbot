@@ -1,0 +1,22 @@
+{
+  "welcome": "💎 {name} — welcome!\n\n🤍 You are in the <b>{brand}</b> anonymous chat bot.\n\nYour messages go directly to the admin. You stay anonymous, but the admin can see your activity and statistics.\n\n📋 Commands:\n/start — start\n/help — help\n/profile — your profile\n/status — admin status\n/clear — clear history\n/stop — stop chat\n/feedback — rate the bot\n/lang — change language\n\n✍️ Send a message — the admin will see it.",
+  "help": "📖 <b>Help</b>\n\n<b>User commands:</b>\n/start — start the bot\n/help — help\n/profile — your profile & statistics\n/status — is admin online?\n/clear — clear chat history\n/stop — stop chat\n/feedback — rate the bot (1-5 ⭐)\n/lang — change language\n\n<b>How it works?</b>\nEvery message you send goes to the admin. The admin sees your anonymous nickname. You'll get a reply from the admin.\n\n🔒 <b>Anonymity:</b> Your name and username are only visible to the admin, other users can't see them.\n\n⚠️ <b>Spam or abusive messages will be blocked.</b>",
+  "profile": "👤 <b>Your profile</b>\n\n🎭 Anonymous ID: <b>{anon_id}</b>\n🗣 Name: {full_name}\n📛 Username: @{username}\n🌐 Language: {language}\n🏷 Tag: {tag}\n📊 Messages: {messages}\n🕐 Registered: {created}",
+  "status": "🟢 <b>Admin: online</b>\n\nAdmin will reply soon.\n\n— or —\n\n🔴 <b>Admin: offline</b>\n\nAuto-reply is on. Your message was received, admin will reply when online.",
+  "stop": "🛑 Chat stopped. Send me a message to start again. 🤍",
+  "clear": "🗑 Chat history cleared.",
+  "feedback_prompt": "⭐ Please rate the bot from 1 to 5:",
+  "feedback_thanks": "🙏 Thanks for your feedback! Your opinion matters to us.",
+  "feedback_comment_prompt": "💬 Want to leave a comment? Send it or /skip:",
+  "feedback_skip": "👍 Got it, thanks!",
+  "blocked": "🚫 You are blocked. Your messages won't be accepted anymore.",
+  "spam_warning": "⚠️ Please follow the rules. Spam or abusive messages will be blocked.",
+  "message_sent": "✅ Your message was sent to the admin. Waiting…",
+  "auto_reply": "🤖 Auto-reply: your message was received, admin will reply soon.",
+  "rate_limited": "⏳ Please slow down. You're sending too many messages.",
+  "lang_select": "🌐 Choose a language:",
+  "lang_changed": "✅ Language successfully changed: {language}",
+  "not_in_chat": "ℹ️ Start the chat first. Press /start.",
+  "flood_blocked": "⏸ You stopped the chat. To resume — press /start.",
+  "msg_too_long": "📏 Message too long. Maximum: {max} characters."
+}
