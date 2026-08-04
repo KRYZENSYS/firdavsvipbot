@@ -1,0 +1,37 @@
+services:
+  - type: worker
+    name: firdavsvipbot
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: ADMIN_PIN
+        value: "2026"
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:///data/bot.db
+      - key: TIMEZONE
+        value: Asia/Tashkent
+      - key: LOG_LEVEL
+        value: INFO
+      - key: ANTIFLOOD_RATE
+        value: "2"
+      - key: ANTIFLOOD_BURST
+        value: "5"
+      - key: AUTO_REPLY_ENABLED
+        value: "true"
+      - key: BRAND_NAME
+        value: Firdavs VIP
+      - key: BRAND_TAGLINE
+        value: Premium anonymous chat — siz bilan, faqat siz uchun 🤍
+      - key: DEFAULT_LANGUAGE
+        value: uz
+    disk:
+      name: bot-data
+      mountPath: /data
+      sizeGB: 1
